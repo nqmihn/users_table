@@ -7,4 +7,4 @@
 - Database: MySQL
 ## Preview
 
-<img src="./resources/img/preview.png" alt="Preview">
+<img src="./resources/img/preview.png" alt="Preview" width="100%">
