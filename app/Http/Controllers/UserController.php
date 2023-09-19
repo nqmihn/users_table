@@ -15,7 +15,7 @@ class UserController extends Controller
 
     public function index(Request $request)
     {
-        $checkRole = $request->has('role') && intval($request->get('role') > 0);
+        $checkRole = $request->has('role') && intval($request->get('role')) > 0;
         $userRoles = UserRole::query()->get();
         $user = User::query()
             ->join('user_roles', 'users.user_role_id', '=', 'user_roles.id')
