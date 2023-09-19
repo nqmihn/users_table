@@ -101,7 +101,6 @@ import { ref } from 'vue'
 import { API_URL } from '../constants';
 export default {
     setup() {
-        console.log(window.Laravel.routes)
         const message = ref(null)
         const currentPage = ref(1)
         const users = ref([]);
