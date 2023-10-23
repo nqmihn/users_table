@@ -1,8 +1,8 @@
 
 
-## Users Table - Client Side Rendering
+## Users Table 
 
-- Frontend: Vuejs 3, Axios
+- Frontend: Vuejs 3
 - Backend: Laravel 10
 - Database: MySQL
 ## Preview
